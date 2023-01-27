@@ -13,3 +13,5 @@ Testo introduttivo per i prompt di **chatGPT**.
 **PROMPT**: Here is my email/ website/marketing copy / [insert copy here] provide 10 different versions that will maximise conversions.
 
 **PROMPT**: Here are my notes from a meeting [insert notes here] please sort these notes into topics and themes.
+
+**PROMPT**: Write me standard operation procedure fpr keyword research.
