@@ -20,3 +20,16 @@ Testo introduttivo per i prompt di **chatGPT**.
 
 It argues when you ask it to do complex stuff but then maybe just emphasize you want the simplified version of a guide. Really useful prompt for studying stuff for school and still get links to sites with the info given. You can even insert general word problems in there and it could solve them.
 
+**PROMPT**: “Where there any parts of my previous prompt that were not useful to you?”
+Honestly this was a game changer and helped me get rid of chaff in my prompts. More often than not it will tell you specifically what was ignored and why but you might need to pry a bit more with something like:
+“Explain why that/those part(s) of the prompt were ignored.”
+If you are feeling particularly lazy you can even just write:
+“Suggest a rewrite of my previous prompt and exclude any parameters, details, or text that was not interpreted by you and was not useful to the results.”
+
+**PROMPT**: If you are posting something to the OpenAI API and you are getting nonsense/dumb responses on the JSON, try adding this before the desired request:
+prompt:"The following is a conversation with an AI assistant that is an expert on [TOPIC]. The assistant is helpful, creative, clever, and very friendly.\n\nHuman: Hello, who are you?\nAI: I am an AI created by OpenAI. How can I help you today?\nHuman: " + [REQUEST],
+It may look dumb, at the beginning I thought the API was nerfed, but I realize that I was just making request without giving GPT a "purpose", by using this I'm getting more consistent answers from the API.
+
+**PROMPT**: Generate digital startup ideas based on the current needs of the people which ChatGPT can fulfill. Use the entire database and knowledge of ChatGPT to generate a business plan for the digital startup complete with idea name, a short one liner, target user persona, user's pain points to solve, main value propositions, sales & marketing channels, revenue stream sources, cost structures, key activities, key resources, key partners, idea validation steps, estimated 1st year cost of operation, and potential business challenges to look for. Write the result in a markdown table.
+Generate 2 or more than 2 startup ideas using the information above and give relevant details about each of them.
+
