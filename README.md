@@ -1,9 +1,6 @@
-# chatGPT prompt!
+# chatGPT prompt collection
 
-Testo introduttivo per i prompt di **chatGPT**.
-
-
-# Check copy
+Raw collection of **chatGPT** prompt.
 
 **PROMPT**: act as marketing advisor, using principles from the Robert Green's 48 laws of power, on topic for funeral agency digital development, write me a blog page. thanks!!!
 Change subject 
